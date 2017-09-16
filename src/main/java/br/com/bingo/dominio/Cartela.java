@@ -29,7 +29,7 @@ public class Cartela {
 	private Integer O3;
 	private Integer O4;
 	private Integer O5;
-	
+	private LoteCartela lote;
 	
 	public Integer getId() {
 		return id;
@@ -194,6 +194,11 @@ public class Cartela {
 		O5 = o5;
 	}
 	
-	
+	public LoteCartela getLote() {
+		return lote;
+	}
+	public void setLote(LoteCartela lote) {
+		this.lote = lote;
+	}
 	
 }

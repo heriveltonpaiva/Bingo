@@ -11,7 +11,7 @@
 <meta name="description" content="Bingo">
 <meta name="author" content="Dennis Ji">
 <meta name="keyword"
-	content="Bingo, Cartela, Sorteio">
+	content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,6 +43,56 @@
 				class="icon-angle-right"></i></li>
 			<li><a href="/">Geração de Cartelas</a></li>
 		</ul>
+
+		<div class="row-fluid sortable">
+				<div class="box span12">
+					<div class="box-header" data-original-title>
+						<h2><i class="halflings-icon white edit"></i><span class="break"></span>Cadastrar Cartelas</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						<form class="form-horizontal" method="post" action="/">
+						  <fieldset>
+							<div class="control-group">
+							  <label class="control-label" for="descricao">Descrição</label>
+							  <div class="controls">
+								<input type="text" class="span6 typeahead" id="descricao">
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="local">Local de Realização</label>
+							  <div class="controls">
+								<input type="text" class="span6 typeahead" id="local">
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="date01">Data de Realização</label>
+							  <div class="controls">
+								<input type="text" class="input-xlarge datepicker" id="date01">
+							  </div>
+							</div>
+							<div class="control-group">
+							  <label class="control-label" for="org">Organização</label>
+							  <div class="controls">
+								<input type="text" class="span6 typeahead" id="org">
+							  </div>
+							 </div>
+							<div class="form-actions">
+							  <button type="submit" class="btn btn-primary">Gerar Cartelas</button>
+							  <button type="reset" class="btn">Cancelar</button>
+							</div>
+						  </fieldset>
+						</form>   
+
+					</div>
+				</div><!--/span-->
+
+			</div><!--/row-->
+
 
 		<div class="row-fluid">
 			<div class=" span18" style="width: 1400px;">
